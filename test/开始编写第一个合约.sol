@@ -76,6 +76,10 @@ contract first{
     return (count,te);
    }
 
+    function getCountExternal() external  view returns(uint256,string memory){
+    return (count,te);
+   }
+
 
     /** 
 

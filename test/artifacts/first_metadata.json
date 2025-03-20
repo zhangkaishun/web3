@@ -42,6 +42,24 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "getCountExternal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -123,10 +141,10 @@
 	},
 	"sources": {
 		"test/开始编写第一个合约.sol": {
-			"keccak256": "0xd5fca1a25e59aded40acbf8c6b7faf885ae9f6f37037fd56fb74b88f97b76964",
+			"keccak256": "0xc399f5113a0b0fccb264476cc8c0201a9acc89aa191335710ac89ee541e84667",
 			"urls": [
-				"bzz-raw://8a36068b5377d550c7abd30b9963f8646ca1634d07ddc85940f9591e2185790e",
-				"dweb:/ipfs/QmSKN6W9uzscDWBskNJQAvnLWciWaJFUEKzqFcQStRB9f9"
+				"bzz-raw://2aea501e49dc6e52f41c7c69400997d5a53af9731fb1716944140a84605ee7c2",
+				"dweb:/ipfs/QmSUGbXoEC3XsJhwBNrLHVSfh1RUDHPBMYkFXjtcupVYmK"
 			]
 		}
 	},
