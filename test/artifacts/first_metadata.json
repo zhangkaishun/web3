@@ -1,0 +1,134 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "incrementCount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "viewFunction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"getCount()": {
+					"notice": "状态可变性（mutability） 有些函数还还会有一个关键字来描述该函数，会怎样修改区块链状态，形容函数的可变性有 3 个关键字： view：用 view 修饰的函数，称为视图函数，它只能读取状态，而不能修改状态。 pure：用 pure 修饰的函数，称为纯函数，它既不能读取也不能修改状态。 payable：用 payable 修饰的函数表示可以接受以太币，如果未指定，该函数将自动拒绝所有发送给它的以太币。 view , pure , payable 通常被称为修饰符"
+				},
+				"viewFunction(uint256)": {
+					"notice": "视图函数 不需要提交交易 不需要花费交易费用  而交易需要全网节点共识之后才会真正确认，状态修改才会生效。 如果在一个会修改状态的函数中调用视图函数，那么视图函数会消耗Gas"
+				}
+			},
+			"notice": "public 声明为 public 的函数或变量，他们既可以在合约内部访问，也以合约接口形式暴露合约外部（其他合约或链下）调用。 另外，public 类型的状态变量，会自动创建一个同名的外部函数（称为访问器），来获取状态变量的值。 external external 不可以修饰状态变量，声明为 external 的函数只能在外部调用，因此称为外部函数。 如何想在合约内部调用外部函数，需要使用this.func() （而不是 func()）。 internal 声明为 internal 函数和状态变量只能在当前合约中调用或者在派生合约（子合约）里访问。 private 声明为 private 函数和状态变量仅可在当前定义它们的合约中使用，并且不能被派生合约使用。*",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/开始编写第一个合约.sol": "first"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/开始编写第一个合约.sol": {
+			"keccak256": "0xd5fca1a25e59aded40acbf8c6b7faf885ae9f6f37037fd56fb74b88f97b76964",
+			"urls": [
+				"bzz-raw://8a36068b5377d550c7abd30b9963f8646ca1634d07ddc85940f9591e2185790e",
+				"dweb:/ipfs/QmSKN6W9uzscDWBskNJQAvnLWciWaJFUEKzqFcQStRB9f9"
+			]
+		}
+	},
+	"version": 1
+}
