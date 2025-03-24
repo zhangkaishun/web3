@@ -42,6 +42,17 @@ pragma solidity ~0.8.20;
 
 */
 contract DataTypeTest {
+
+         uint[] public  xx; // 状态变量x的数据存储是storage
+
+        function f(uint[] memory memoryArray) public {
+
+                xx=memoryArray; //数组拷贝到storage 因为是memory变量赋值给storeage
+                uint[] storage y=xx;  //仅仅分配一个指针(x,y指向同一个位置)
+        }
+
+     
+     
     
 
 

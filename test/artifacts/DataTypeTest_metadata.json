@@ -4,7 +4,40 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "memoryArray",
+						"type": "uint256[]"
+					}
+				],
+				"name": "f",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "xx",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -34,10 +67,10 @@
 	},
 	"sources": {
 		"test/数据类型.sol": {
-			"keccak256": "0x6ec6ce0a5359e97613c5983e73a94215bd033a2b3e2330895b2920ed6b7506f8",
+			"keccak256": "0x4f4cc3a73ac9d739468a04ebc2c621b9b417ce1a76ba402f344102d93e90e572",
 			"urls": [
-				"bzz-raw://d253cae6e79302ea8f6bba80dc81f1cc04ed5ae93cfda7830155fc5e4ea7d851",
-				"dweb:/ipfs/QmUiiLQs1msDSk6UoTELvpSHUWiHbY38ParQhFvFWQ6u9M"
+				"bzz-raw://488e71150e6f02ec9103dae37d07fc729b3bc9192640924225fd6e4f4ab1702e",
+				"dweb:/ipfs/QmcfUUgKRRiqH3xRmMWHoLS4ogmxpP8gx8kd8n6BTXT2XQ"
 			]
 		}
 	},

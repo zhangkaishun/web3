@@ -72,7 +72,7 @@
 			"kind": "user",
 			"methods": {
 				"getNamesTemp()": {
-					"notice": "function changeNamesMemory() public { string[] memory t= getNamesTemp(); t.push(\"zks4\"); } 这个列子会报错，返回memory ,不能执行push ,除非新建一个 数组操作对比：storage 和 memory 的不同 操作/方法\tstorage 数组\tmemory 数组 声明数组\t可以声明和初始化大小（动态/静态）\t必须在声明时指定大小或通过 new 创建 修改大小\t可以使用 .push(), .pop() 等动态改变数组大小\t不可以使用 .push() 或 .pop() 修改元素\t可以直接修改元素，如 arr[i] = value;\t可以修改元素，但数组大小不可变 循环修改\t可以遍历并修改数组元素\t可以遍历并修改数组元素 数据复制\t可以通过引用复制数据，修改会影响原始数据\t必须手动复制数据，修改不会影响原始数据 存储生命周期\t永久存储在区块链上，修改会产生 gas 消耗\t仅在当前函数调用期间有效，执行完后销毁*"
+					"notice": "function changeNamesMemory() public { string[] memory t= getNamesTemp(); t.push(\"zks4\"); } 这个列子会报错，返回memory ,不能执行push ,除非新建一个 数组操作对比：storage 和 memory 的不同 操作/方法\tstorage 数组\t                    memory 数组 声明数组\t可以声明和初始化大小（动态/静态）\t必须在声明时指定大小或通过 new 创建 修改大小\t可以使用 .push(), .pop() 等动态改变数组大小\t不可以使用 .push() 或 .pop() 修改元素\t可以直接修改元素，如 arr[i] = value;\t可以修改元素，但数组大小不可变 循环修改\t可以遍历并修改数组元素\t可以遍历并修改数组元素 数据复制\t可以通过引用复制数据，修改会影响原始数据\t必须手动复制数据，修改不会影响原始数据 存储生命周期\t永久存储在区块链上，修改会产生 gas 消耗\t仅在当前函数调用期间有效，执行完后销毁*"
 				}
 			},
 			"notice": "当返回 storage 时，函数返回的是状态变量的引用（指针），而不是数据副本，因此可以直接修改合约的状态变量。 📌 1. 什么时候可以用 storage 作为返回值？ ✅ 适用场景： 返回合约内部的 storage 状态变量的引用 只能用于 internal 或 private 函数 适用于数组、映射（mapping）、结构体（struct） string 节省 gas（避免 memory 拷贝） ❌ 不能用于 public 或 external 这样做会暴露 storage 变量的引用，可能导致外部合约直接修改合约存储数据，造成安全问题。",
@@ -96,10 +96,10 @@
 	},
 	"sources": {
 		"test/使用storage作为返回值的情况.sol": {
-			"keccak256": "0xe1ae72143d7710feaada3636d8182540db5b6708a6f830d71263e66f1e2f25bd",
+			"keccak256": "0xb9583ca823592cbcbd344ffa5004ea3cff7e6907a8a8d6b8ae4923d307eb657d",
 			"urls": [
-				"bzz-raw://ed4507a225384fd673413b1e128a7ea8c2e6766887ac8cb284c4aa9b6d236a0f",
-				"dweb:/ipfs/QmSpqbAzdJ5oDq6bCvJzn3NYVeW6qvULnCgfWbSPRCrpHk"
+				"bzz-raw://28e86bcad3a7e3b12acf5153ee71bbcbcf8797c7babf69111c54cabff10aee1d",
+				"dweb:/ipfs/QmV1Yf4gxgW7aJR2773NxRDTB76CwxwBjJCMFhvTCzsR3M"
 			]
 		}
 	},

@@ -60,7 +60,7 @@ contract StorageReturnTest {
          这个列子会报错，返回memory ,不能执行push ,除非新建一个
 
         数组操作对比：storage 和 memory 的不同
-                操作/方法	storage 数组	memory 数组
+                操作/方法	storage 数组	                    memory 数组
                 声明数组	可以声明和初始化大小（动态/静态）	必须在声明时指定大小或通过 new 创建
                 修改大小	可以使用 .push(), .pop() 等动态改变数组大小	不可以使用 .push() 或 .pop()
                 修改元素	可以直接修改元素，如 arr[i] = value;	可以修改元素，但数组大小不可变

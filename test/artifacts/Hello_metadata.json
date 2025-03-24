@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "sayhello",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/合约类型.sol": "Hello"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/合约类型.sol": {
+			"keccak256": "0xcf27c534d9cb7e5dcb63e11c7bdb46eded4dec466c74e9a3d0578c5e8d95c6db",
+			"urls": [
+				"bzz-raw://227e8d158ddd7a06a0707933edb27a98bc3f192666d5208f95e6ae17c7e6b23b",
+				"dweb:/ipfs/QmZj2rCW6Hh3fFPTqEfgzPt3Ds2uuGJfBXAgiYVwuvZuEm"
+			]
+		}
+	},
+	"version": 1
+}

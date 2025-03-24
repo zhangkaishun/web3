@@ -1,0 +1,115 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getContractBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getUserAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "x",
+						"type": "address"
+					}
+				],
+				"name": "testTransfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "user",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "地址类型有两种： address：保存一个20字节的值（以太坊地址的大小）。 address payable：表示可支付地址（可接受以太币的地址），在地址格式上，其实与address 完全相同，也是20字节。 在编写合约时，大部分时候，使用address就好，当需要向地址转账时，可以使用以下代码把address 转换为address payable ： address payable ap = payable(addr); address payable拥有的两个成员函数transfer和send （address 没有这两个方法），transfer和send 的作用是向该地址转账，下文会进一步介绍。*",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/使用地址类型.sol": "testAddr"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/使用地址类型.sol": {
+			"keccak256": "0x75fc35758fa41dbbbe5f3ad753dfb68e793f57379097084be1940d753920d5b4",
+			"urls": [
+				"bzz-raw://d4797885ee82ba2c2221569903a2157602e64a3565be501f13fb5c9e439186d0",
+				"dweb:/ipfs/QmXh4wfbL2VwADz6TpeFBg91iSkp9tdpTQV1BcDUAxQ9u6"
+			]
+		}
+	},
+	"version": 1
+}
