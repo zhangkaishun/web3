@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/结构体.sol": "StructTest"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/结构体.sol": {
+			"keccak256": "0xc7ddbc108590e03ecf51bc025d13e75bd8786c9c8168913350757cf19a607136",
+			"urls": [
+				"bzz-raw://e02f4189dacb6858a72fb0fb5c3725f7f64a5d56777dc2f1b14a53d25c1c2096",
+				"dweb:/ipfs/QmeXpTCqMz1HsmsToW63yxdsxboWLjLBPjETqd4hipUzNz"
+			]
+		}
+	},
+	"version": 1
+}
