@@ -4,7 +4,71 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "key",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "insert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newBalance",
+						"type": "uint256"
+					}
+				],
+				"name": "update",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -13,6 +77,7 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
+			"notice": "键仅支持solidity内置类型、bytes/string/合约/枚举    ，不能是复杂类型：如：映射、变长数组、结构体 值没有任何限制 映射不能遍历*",
 			"version": 1
 		}
 	},
@@ -33,10 +98,10 @@
 	},
 	"sources": {
 		"test/映射.sol": {
-			"keccak256": "0x8b7c758bdf19f695a10f54d1a45a772367b23c1f2b58ab3068f7b1e240583fb5",
+			"keccak256": "0x59c4f0dd3b8ab5922fef7cecadadacbc2492f878a09a8d2ae54db5fc605e844e",
 			"urls": [
-				"bzz-raw://ab6d7cba3eb22ba7ad0c0c3dfc806e6cf076b7139e990cbdee027c49f15e5c8f",
-				"dweb:/ipfs/QmYFYGXqBbGLzB75aRz4CyUTvizLsD8vzh13SSn2XWrqbu"
+				"bzz-raw://0ce8bef9b446db893b584eca92559a22f97be774f52a5cefb3eaa2d34eccd0cc",
+				"dweb:/ipfs/QmWRKq5mYURs6DJ5Pt8WDmw21Adae5TyDg53jg9sas8bF7"
 			]
 		}
 	},

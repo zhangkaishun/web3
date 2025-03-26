@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "可以在合约中明确声明两个函数来表示合约可以接收 ETH， 他们是 receive 函数和 fallback函数。*",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/合约如何接收ETH.sol": "ReceiveETH"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/合约如何接收ETH.sol": {
+			"keccak256": "0x357284a2e57390a2c7e084391e48e8299a8e0676ce43d786c3f9ca7c706b8346",
+			"urls": [
+				"bzz-raw://c58c0995b37142664433efa7d94aa79b9e76a469dc2899b2af2bfdc63d8fe74f",
+				"dweb:/ipfs/Qme9rq9uCA16atF4Jf6pCV6ZmaUTHHcTDDcuJ1SHYrruGt"
+			]
+		}
+	},
+	"version": 1
+}

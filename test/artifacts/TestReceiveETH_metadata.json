@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Received",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "fallback",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"fallback(uint256)": {
+					"notice": "和接收函数类似，fallback函数也是一个特殊的函数，中文一般称为“回退函数”。 如果用户对合约进行调用时，合约中没有找到用户要调用的函数， fallback 函数就会被调用（可以理解为最终回退到这个函数）。 同样的，若是对合约进行 ETH 转账，而合约又没有实现receive函数，也会回退到 fallback 函数（不过此时要求fallback函数需要能接收ETH， 有 payable 修饰）。*"
+				}
+			},
+			"notice": "可以在合约中明确声明两个函数来表示合约可以接收 ETH， 他们是 receive 函数和 fallback函数。*",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/合约如何接收ETH.sol": "TestReceiveETH"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/合约如何接收ETH.sol": {
+			"keccak256": "0x3b9b3b3e5e8cedc81f8778bf56e0be49208e6385f9d7573cb803dda401e9c672",
+			"urls": [
+				"bzz-raw://959e1116f15a197cd4e8a0303c257d407a60a3568406131c062de57a1d1e5f8b",
+				"dweb:/ipfs/QmQnpvr2ri7r5YxfFRHJz4ZXDBighiesJ4FZytxVeD71Ag"
+			]
+		}
+	},
+	"version": 1
+}
