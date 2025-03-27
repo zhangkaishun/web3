@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "helloWorld",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "有一些父合约，我们创建他们，只是为了在合约之间建立清晰的结构关系，而不是真实的部署这些父合约。 我们可以在这些不想被部署的合约前加上 abstract 关键字，表示这是一个抽象合约。 抽象合约由于不需要部署，因此可以声明没有具体实现的纯虚函数，纯虚函数声明用\";\"结尾，而不是\"{ }\"，例如：*",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/继承.sol": "AbstrBase"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/继承.sol": {
+			"keccak256": "0x992356c8b839311b8b439d60b6f9b153e23aef2a7164aa91d427cd65b86c05bb",
+			"urls": [
+				"bzz-raw://458e556f0b4913993026eb0827e9cf83169dc30b39258d59e016cd5276e123a9",
+				"dweb:/ipfs/QmPbpyuL7jjYYZUYNfPfRWLixCbYWrDrHEE364CvB3vNHn"
+			]
+		}
+	},
+	"version": 1
+}

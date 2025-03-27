@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "事件是通过关键字event来声明的，event 不需要实现，只需要定义其事件名和参数。 我们也可以认为事件是一个用来被监听的接口（接口同样也不需要实现）。 通过 emit 关键字可以触发事件，此时会在链上生成一个日志条目。*",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/事件.sol": "Name"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/事件.sol": {
+			"keccak256": "0xbe31adb68cfceeb1754403f3022b691ae29ac762ad6977a1825dfac628ffbb20",
+			"urls": [
+				"bzz-raw://870ddc470931a0c6835a72a8adbdcd64e8757942bd080426666a2b59e380bba9",
+				"dweb:/ipfs/QmedFRghXRpEp4YkS4eL7GKfugX8fa4TnmjLLerQ7zo7Jo"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"name": "marry",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owned",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_new0",
+						"type": "address"
+					}
+				],
+				"name": "transferOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "函数修改器可以用来改变一个函数的行为，比如用于在函数执行前检查某种前置条件。 函数修改器使用关键字 modifier , 以下代码定义了一个 onlyOwner 函数修改器， 然后使用修改器 onlyOwner 修饰 transferOwner() 函数：*",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/函数修改器modifier.sol": "modifierTest"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/函数修改器modifier.sol": {
+			"keccak256": "0xf0543236309b1af5f7bcdc960ed186211b04d46ab6918156601e8f86d0fd0ec7",
+			"urls": [
+				"bzz-raw://eee33613ffad8faed47eae5f599268ea96fc6d2d82db74ef8e845ccde70b65dc",
+				"dweb:/ipfs/QmYbQRhFZik16K9Zik9FeD5dNjjokTDP7Fpz2aLPx7k6Va"
+			]
+		}
+	},
+	"version": 1
+}
