@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "incrementCounter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/接口/MyContract.sol": "MyContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/接口/Counter.sol": {
+			"keccak256": "0x900ce6f1dd74b1e1ff2111699a1664f831a4c93ac1bc97644aa4e541e0d958c9",
+			"urls": [
+				"bzz-raw://c07efbb90925fdbbc78df37ac13a5b0ccf8c4db337252b4199b9a9734f7e2c03",
+				"dweb:/ipfs/Qmdt43kaHeAJLBQhC4yZb4dDnhMPjfzFEyXaCwANc9WAmh"
+			]
+		},
+		"test/接口/MyContract.sol": {
+			"keccak256": "0x4cb94cfde148d6bd0bafbfce1aa4ba87f4f95869d60e935001d344aa035c1c7c",
+			"urls": [
+				"bzz-raw://9961179051a448da98f673f50da9208c57d1fc31ef1fb66998484e6175380e76",
+				"dweb:/ipfs/QmTYzKK9MLZVgh6cY6tUM3WaRhn6NJd9ncPWXBNGPbaWkH"
+			]
+		}
+	},
+	"version": 1
+}

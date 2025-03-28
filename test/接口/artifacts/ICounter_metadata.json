@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "接口的作用主要体现在以下几个方面： 规范行为：接口定义了一组方法，要求实现这个接口的合约必须提供这些方法的具体实现。通过实现接口，可以确保一组合约拥有相同的方法，并且这些方法的功能和行为是一致的，从而增强了代码的一致性和可预测性。 解耦合：接口可以将定义方法的部分与具体实现合约分离，从而实现了解耦合。因此我们可以基于接口来进行合约间的相互调用， 而不是基于实现。*",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/接口/ICounter.sol": "ICounter"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/接口/ICounter.sol": {
+			"keccak256": "0xe6cdccad137095db8ad7c2020b1421c9cac1ec9a507400c063605942c8cc86d5",
+			"urls": [
+				"bzz-raw://fe6d9a97c2e77244a21acc8ce1700a349bede36fcd8210476f99799363a8a4b7",
+				"dweb:/ipfs/QmTDwWUXDqzE4qjEk1LVxbMWip8N6DzfCt6bpmwRAVK1wW"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/接口/Counter.sol": "Counter"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/接口/Counter.sol": {
+			"keccak256": "0xc1a2691bda1b03c1aa46cc24f7a48139d104ddc8139d5e15a8583fc132202d5e",
+			"urls": [
+				"bzz-raw://972b4f8f8dfb4a264e7864d70e9366ac4096dc702f611fccd9bdd2bf07fd81eb",
+				"dweb:/ipfs/QmYmYqLFMwJojgJVQr6qvaq54XNw5xBX2FtQCXU2om1s3P"
+			]
+		},
+		"test/接口/ICounter.sol": {
+			"keccak256": "0xe6cdccad137095db8ad7c2020b1421c9cac1ec9a507400c063605942c8cc86d5",
+			"urls": [
+				"bzz-raw://fe6d9a97c2e77244a21acc8ce1700a349bede36fcd8210476f99799363a8a4b7",
+				"dweb:/ipfs/QmTDwWUXDqzE4qjEk1LVxbMWip8N6DzfCt6bpmwRAVK1wW"
+			]
+		}
+	},
+	"version": 1
+}

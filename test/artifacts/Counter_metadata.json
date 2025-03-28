@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/接口及合约交互.sol": "Counter"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/接口及合约交互.sol": {
+			"keccak256": "0x900ce6f1dd74b1e1ff2111699a1664f831a4c93ac1bc97644aa4e541e0d958c9",
+			"urls": [
+				"bzz-raw://c07efbb90925fdbbc78df37ac13a5b0ccf8c4db337252b4199b9a9734f7e2c03",
+				"dweb:/ipfs/Qmdt43kaHeAJLBQhC4yZb4dDnhMPjfzFEyXaCwANc9WAmh"
+			]
+		}
+	},
+	"version": 1
+}
