@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "callSetNum",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/call与delegatecall区别/call调用.sol": "caller"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/call与delegatecall区别/call调用.sol": {
+			"keccak256": "0xfe49b26171933068e692cff02138dd4f912de3fd768bda4a4b6cad59cc8fe3d8",
+			"urls": [
+				"bzz-raw://99a63e68fcc34dbf35cef607cbd035c644f05604ea6169797e15f7d9e1bb0126",
+				"dweb:/ipfs/QmTQSj6TcP1UfCvtWmCVWBcp14yZEMqANzw44LvaM3icra"
+			]
+		}
+	},
+	"version": 1
+}

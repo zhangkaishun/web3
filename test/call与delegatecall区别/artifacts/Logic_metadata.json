@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setNum",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "调用方式\tmsg.sender call\tCaller 合约的地址 delegatecall\t原始调用者（EOA）的地址 如果你希望被调用的合约知道它是由哪个合约调用的，使用 call；如果你希望代码执行时仍然认为它是由原始用户调用的，使用 delegatecall。 使用函数delegatecall()也是类似的方式，delegatecall被称为“委托调用”， 顾名思义，是把一个功能委托到另一个合约，它使用当前合约（发起调用的合约）的上下文环境（如存储状态，余额 等），同时使用另一个合约的函数。 delegatecall()多用于调用库代码以及合约升级。*",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/call与delegatecall区别/delegatecallTest.sol": "Logic"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/call与delegatecall区别/delegatecallTest.sol": {
+			"keccak256": "0xd4b4927861060f6887efbad8bbb058b8a82bac692c5bc32ed3c9dc378b6214a7",
+			"urls": [
+				"bzz-raw://0cda0ac86a794cc8690671f4a259b088a3557634a6f9be3507c2e2a94cec2ee3",
+				"dweb:/ipfs/QmfUcnsoQiBw3EgdPihjJnJ1V5UsNs664qd8Emgd8qnzSv"
+			]
+		}
+	},
+	"version": 1
+}
